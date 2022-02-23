@@ -19,3 +19,15 @@ void print(int len, int wth) {
 }
 
 // Implement the Input Function here
+void input(int length,int width)
+{
+  int k;
+  k=width;
+  k=length;
+}
+void input(int &length, int &width)
+{
+  int temp=length;
+  length=width;
+  width=temp;
+}
