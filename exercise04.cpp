@@ -16,18 +16,16 @@ int main() {
 void print(int len, int wth) {
    cout << "Length : " << len 
         << ", Width  : " << wth << endl;
+  int total=len+wth;
 }
 
 // Implement the Input Function here
-void input(int length,int width)
-{
-  int k;
-  k=width;
-  k=length;
-}
 void input(int &length, int &width)
 {
-  int temp=length;
-  length=width;
-  width=temp;
+ cout<<"Enter a length\n";
+  cin>>length;
+  cout<<"Enter a width \n";
+  cin>>width;
+  int total=length+width;
+  cout<<"Total is "<<total<<endl;
 }
