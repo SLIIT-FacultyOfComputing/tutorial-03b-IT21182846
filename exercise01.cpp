@@ -7,8 +7,8 @@ int main() {
  cout << setw(5)<<"No" <<setw(15)<< "Name" << setw(10)<<"Marks" << endl;
  for (int r = 0; r < 5; r++) {
      cout << setw(5)<< r+1 
-          <<  setw(15)<<names[r]
-          <<setw(10)<< marks[r] << endl;
-   cout<<setw(10)<<setprecision(2)<<setiosflags(ios::fixed)<<endl;
+          <<  setw(15)<<names[r]<<
+          setw(10)<<setiosflags(ios::fixed)<<setprecision(2)<< marks[r] << endl;
+
  }
 }
